@@ -59,9 +59,6 @@ travel_log = [
     },
 ]
 
-dic = {}
-dic["majestic"] = "yes"
-dic[1] = 4
-print(dic)
+
 
 
