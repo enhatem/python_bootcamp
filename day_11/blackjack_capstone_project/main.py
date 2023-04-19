@@ -33,6 +33,8 @@ import os
 import random
 from art import logo
 
+# NB: We can only call a function after it has been declared
+# we could have used sum() to get the total sum of a list
 def calculate_score(player_cards):
     player_score = 0
     number_of_cards = len(player_cards)
@@ -139,12 +141,12 @@ def blackjack():
         return 0
 
     # Drawing cards for the computer until their score goes over 16
-    if computer_score < 16:
+    if computer_score < 17:
         computer_draws = True
         while computer_draws:
             computer_cards.append(random.choice(cards))
             computer_score = calculate_score(computer_cards)
-            if computer_score > 16:
+            if computer_score > 17:
                 computer_draws = False
 
     # Checking if the computer's score is larger than 21 after adding the cards
