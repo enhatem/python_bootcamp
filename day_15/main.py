@@ -89,7 +89,7 @@ def coffee_machine():
         else:
             enough_resources = evaluate_machine_resources(user_input)
 
-        # TODO: 5. Process coins. If there are enough ingredients to make the drink, we prompt the user to insert coins
+        # Processing coins. If there are enough ingredients to make the drink, we prompt the user to insert coins
         ## Calcualte the monetary value of the coins inserted
         # Coin operated: penny: 1cent($0.01), nickel: 5cents($0.05), dime: 10cents($0.1), quarter: 25cents($0.25)
         if enough_resources:
