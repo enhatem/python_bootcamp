@@ -1,16 +1,3 @@
-# from data_handler import DataHandler
-#
-# if __name__ == '__main__':
-#     file_dir_name = 'data/20230405_152908_4.csv'
-#
-#     data_handle = DataHandler(file_dir_name)
-#     data_handle.read_data()
-#
-#     if data_handle.data is not None:
-#         #print(f"DatAVG.xa =  {data_handle.data['ns=6;s=::AsGlobalPV:comm_metrologie.o_datums_B1112.DatAVG.X',]}")
-#         datAVG_x = data_handle.data['ns=6;s=::AsGlobalPV:comm_metrologie.o_datums_B1112.DatAVG.X'].to_numpy()
-#         print(datAVG_x.shape)
-
 import random
 
 import art
