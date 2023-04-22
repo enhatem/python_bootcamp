@@ -119,8 +119,4 @@ def coffee_machine():
             else:
                 print(f"Sorry that's not enough money. Money refunded.")
 
-
-
-
 coffee_machine()
-
